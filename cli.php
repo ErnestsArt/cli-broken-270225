@@ -22,7 +22,7 @@ function showAllBooks($books) {
     }
 }
 
-function showBook() {
+function showBook($books) {
     $id = readline("Enter book id: ");
     displayBook($id, $books[$id]);
 }
