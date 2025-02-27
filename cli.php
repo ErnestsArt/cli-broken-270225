@@ -18,7 +18,7 @@ $books = [
 
 function showAllBooks($books) {
     foreach ($books as $id => $book) {
-        // need to display each book here
+        displayBook($id, $book);
     }
 }
 
