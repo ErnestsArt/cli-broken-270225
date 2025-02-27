@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <a href="index.php">Next Page</a>
 </body>
 </html>
