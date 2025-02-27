@@ -35,6 +35,7 @@ function addBook(&$books) {
 
 function deleteBook(&$books) {
     $id = readline("Enter book ID you want to delete: ");
+    unset($books[$id]);
 }
 
 function displayBook($id, $book) {
